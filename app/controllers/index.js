@@ -24,6 +24,7 @@ $.list.addEventListener('itemclick', function(e) {
 
 	// si clic sur l'icone supprimer ouvre dialogue
 	if (e.bindId === 'delete') {
+		$.alertMemo.setTitle('Mémo "'+rowData.properties.title+'"');
 		$.alertMemo.show();
 
 	} else {
@@ -103,6 +104,7 @@ function init() {
 		listItems.push({
 			properties : {
 				itemID: model.get('id'),
+				title: model.get('title'),
 				accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_NONE
 			},
 			title: { text: model.get('title') },
