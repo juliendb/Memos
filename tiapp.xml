@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.julien.memos</id>
+    <name>Mes Mémos</name>
+    <version>1.1</version>
+    <publisher>Julien De Bisschop</publisher>
+    <url>http://www.juliendb.fr</url>
+    <description>Application mobile pour créer des mémos</description>
+    <copyright>2016 by julien</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <statusbar-style>memos</statusbar-style>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>false</analytics>
+    <guid>baf5d062-21aa-4624-9666-d05b1f809ee9</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest>
+            <application android:theme="@style/memos" android:hardwareAccelerated="true" android:largeHeap="true" android:icon="@drawable/appicon" android:label="Mes Mémos"/>
+        </manifest>
+    </android>
+    <modules>
+    </modules>
+    <deployment-targets>
+        <target device="windows">false</target>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>6.0.0.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">58307fda27857d3a55973c17</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">irZe7mxur1mcmVCtuAx2hGPctPOQiJ42</property>
+    <property name="acs-oauth-key-development" type="string">Yt4iz174EXIxNFtaPMGP6CZ1cUSfsLcC</property>
+    <property name="acs-api-key-development" type="string">PD95sPomMFukQuzpdM7iXRhsqqq5YCwk</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">K1qqwpgwy5sjUK79EI</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">gLIt7IYqBq3rCvXCEWrR1lhypTSc4h8l</property>
+    <property name="acs-oauth-key-production" type="string">hx9TQsyUJpQb6X4qZepZmuzxRB5S3sMd</property>
+    <property name="acs-api-key-production" type="string">zCNyuPtUWm9k5bn4jo8x2gqVH6hS4nuf</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">blgm4b0oy0ef3y5yRa</property>
+    <property name="appc-org-id" type="string">100150697</property>
+    <property name="appc-creator-user-id" type="string">8d43ee6c-dae5-4993-bff4-eec728f0614a</property>
+</ti:app>

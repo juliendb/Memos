@@ -1,0 +1,35 @@
+<Alloy>
+	<Window>
+		<View id="headerbar">
+			<Label id="headertitle">0 Mémos</Label>
+
+			<View id="actionButtons">
+				<Label id="newArticle" icon="fa-plus" class="headerbutton"/>
+			</View>
+		</View>
+
+		<AlertDialog id="alertMemo" title="Mémo" message="Voulez-vous supprimer le mémo ?">
+			<ButtonNames>
+				<ButtonName>Confirmer</ButtonName>
+				<ButtonName>Annuler</ButtonName>
+			</ButtonNames>
+		</AlertDialog>
+
+
+		<ListView id="list" defaultItemTemplate="templateStation">
+			<Templates>
+				<ItemTemplate name="templateStation">
+					<View class="row">	
+						<Label bindId="title" class="title"/>
+						<Label bindId="date" class="date"/>
+					</View>
+					<Label bindId="delete" class="delete"/>
+				</ItemTemplate>
+			</Templates>
+
+			<ListSection>
+			</ListSection>
+		</ListView>
+		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+	</Window>
+</Alloy>

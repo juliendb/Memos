@@ -1,0 +1,47 @@
+"#headertitle": {
+	left: "10dp"
+}
+
+".row": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	left: 10,
+	right: 10,
+	top: 10,
+	layout: "vertical",
+}
+".title": {
+	left: 0,
+	top: 5,
+	color: '#000',
+	textAlign: "left"
+}
+".date": {
+	left: 0,
+	bottom: 10,
+	color: '#333',
+	textAlign: "right",
+	font: {
+		fontSize: "10dp",
+		fontStyle: "italic"
+	}
+}
+".delete": {
+	bottom: 5,
+	right: 10,
+	width: 40,
+	height: 40,
+	textAlign: "center",
+	color: "#141414",
+	text: "\uf014",
+	font: {
+		fontSize: "18dp",
+		fontFamily : "FontAwesome"
+	}
+
+}
+
+
+"#newArticle": {
+	right: 5
+}

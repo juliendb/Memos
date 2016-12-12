@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="memos" parent="@style/Theme.AppCompat.Light">
+		<item name="colorPrimary">#58b6a4</item>
+		<item name="colorAccent">#000000</item>
+		<item name="android:textColorPrimary">#FFFFFF</item>
+		<item name="android:statusBarColor">#000</item>
+	</style>
+</resources>

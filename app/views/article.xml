@@ -1,0 +1,35 @@
+<Alloy>
+	<Window id="article">
+		<View id="headerbar">
+			<Label id="headerback" icon="fa-angle-left" class="headerbutton"/>
+			<Label id="headertitle">Mémo</Label>
+
+			<View id="actionButtons">
+				<Label id="saveArticle" icon="fa-pencil" class="headerbutton"/>
+			</View>
+		</View>
+
+		<AlertDialog id="alertMemo" title="Mémo" message="Veuillez remplir les champs.">
+			<ButtonNames>
+				<ButtonName>Compris</ButtonName>
+			</ButtonNames>
+		</AlertDialog>
+		
+		<ScrollView>
+			<View class="container">
+				<Label>Titre</Label>
+				<View class="input-container">
+					<TextField id="editTitle" class="input"/>
+				</View>
+			</View>
+			<View class="container">
+				<Label>Contenu</Label>
+				<View class="input-container">
+					<TextArea id="editContent" class="input"/>
+				</View>
+			</View>
+		</ScrollView>
+
+		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+	</Window>
+</Alloy>

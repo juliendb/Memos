@@ -1,0 +1,87 @@
+"Window": {
+	layout: "vertical",
+	exitOnClose: false,
+	navBarHidden: true,
+	backgroundColor: "#EDEAE3"
+}
+
+"ScrollView": {
+	layout: "vertical"
+}
+
+"TextField": {
+	height: "44dp",
+}
+"TextArea": {
+	height: "320dp"
+}
+
+
+".input": {
+	top: "5dp",
+	bottom: "5dp",
+	left: "2%",
+	width: "96%",
+	backgroundColor: "#fff",
+	color: "#141414",
+}
+".container": {
+	top: "10dp",
+	bottom: "10dp",
+	left: "3%",
+	width: "94%",
+	height: Ti.UI.SIZE,
+	layout: "horizontal"
+}
+".input-container": {
+	layout: "horizontal",
+	top: "5dp",
+	width: "100%",
+	height: Ti.UI.SIZE,
+	backgroundColor: "#fff",
+	borderColor: "#ccc",
+	borderRadius: "4dp",
+	borderWidth: "1dp",
+}
+
+
+
+
+
+"#headerbar": {
+	top: "0dp",
+	height: "50dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#549AAF"
+}
+"#headerback": {
+	left: "5dp"
+}
+"#headertitle": {
+	left: "40dp",
+	color: "white",
+	font: {
+		fontSize: "16dp",
+		fontFamily: "Roboto-Thin"
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+"#actionButtons": {
+	right: "5dp",
+	width: Ti.UI.SIZE,
+	height: "50dp",
+	backgroundColor: "transparent",
+	visible: true,
+	layout: "horizontal"
+}
+".headerbutton": {
+	top: "5dp",
+	width: "40dp",
+	height: "40dp",
+	color: "white",
+	textAlign: "center",
+	font: {
+		fontSize: "18dp"
+	}
+}
